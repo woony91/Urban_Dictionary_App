@@ -4,7 +4,7 @@ import java.util.List;
 
 import com.google.gson.annotations.SerializedName;
 
-public class ListItem{
+public class Definition {
 
 	@SerializedName("defid")
 	private int defid;
@@ -130,7 +130,7 @@ public class ListItem{
 	@Override
  	public String toString(){
 		return 
-			"ListItem{" + 
+			"Definition{" +
 			"defid = '" + defid + '\'' + 
 			",sound_urls = '" + soundUrls + '\'' + 
 			",thumbs_down = '" + thumbsDown + '\'' + 
